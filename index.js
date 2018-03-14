@@ -12,7 +12,6 @@ squel.flavours['influx'] = function (_squel) {
         }
 
         _toParamString() {
-            console.log("_toParamString")
             return {
                 text: this._command.toUpperCase(),
                 values: [],
